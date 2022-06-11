@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 42c024d4225a6c94092c7c0909630080
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - healthCollectClip: {fileID: 8300000, guid: 28709c34e98a9f44f950d8440a06642e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

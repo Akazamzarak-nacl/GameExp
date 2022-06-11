@@ -1,0 +1,423 @@
+Using pre-set license
+Built from '2021.2/china_unity/release' branch; Version is '2021.2.10f1c1 (79ebcf01f00f) revision 7990223'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Hub\Hub\Editor\2021.2.10f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity Project/FinalProjectv9.0
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+5104
+Successfully changed project path to: E:/Unity Project/FinalProjectv9.0
+E:/Unity Project/FinalProjectv9.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 356.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1c1 (79ebcf01f00f)
+[Subsystems] Discovering subsystems at path E:/Unity Hub/Hub/Editor/2021.2.10f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Project/FinalProjectv9.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'E:/Unity Hub/Hub/Editor/2021.2.10f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/Hub/Editor/2021.2.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/Hub/Editor/2021.2.10f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Hub/Hub/Editor/2021.2.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008802 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 309.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1402ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (897ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (310ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.045203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\FinalProjectv9.0\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Project\FinalProjectv9.0\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 392.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.210 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5212ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (4575ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (794ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (3118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (393ms)
+				BeforeProcessingInitializeOnLoad (217ms)
+				ProcessInitializeOnLoadAttributes (2320ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (225.7 KB). Loaded Objects now: 4567.
+Memory consumption went from 159.3 MB to 159.1 MB.
+Total: 11.000400 ms (FindLiveObjects: 0.751700 ms CreateObjectMapping: 0.535600 ms MarkObjects: 9.237800 ms  DeleteObjects: 0.472000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96080.530408 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinLight.guiskin
+  artifactKey: Guid(66428235a3cda4584bd90de6998ad4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/AstarEditorSkinLight.guiskin using Guid(66428235a3cda4584bd90de6998ad4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf831c7997110d2789d0f136e4e99aa') in 0.178528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.314389 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueCheckerGround.mat
+  artifactKey: Guid(8f4d5503fdeab441e8c6c041504cf535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/BlueCheckerGround.mat using Guid(8f4d5503fdeab441e8c6c041504cf535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16d9a933293e322a11fd93c064d15f2') in 0.344982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104822 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/cylinder.fbx
+  artifactKey: Guid(436b69414b04047fca3929c70df57c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/cylinder.fbx using Guid(436b69414b04047fca3929c70df57c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370bb0a5fcc2d889f744b59509a85113') in 0.554520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png
+  artifactKey: Guid(b9d7d6d7befb34b9c889e6195746c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png using Guid(b9d7d6d7befb34b9c889e6195746c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d54995453d1bfbe46ec67a004ec8c') in 0.123366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png
+  artifactKey: Guid(d0f7738d6b5b2420b9a77bfef3926e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png using Guid(d0f7738d6b5b2420b9a77bfef3926e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94f9039d4a5bef8edfa39045b74e955') in 0.017885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/用到的Sprite/boss/Animation/death/death_3.png
+  artifactKey: Guid(2c72a1a4b53851f49a9cd2e24eb32365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/death/death_3.png using Guid(2c72a1a4b53851f49a9cd2e24eb32365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2272d6c433167d34384374e33854f72e') in 0.045688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008790 seconds.
+  path: Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_31.png
+  artifactKey: Guid(d0a13489dc50a084b8b276efa5930498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_31.png using Guid(d0a13489dc50a084b8b276efa5930498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d5c1e9dc55b48d3fec746a8925114d') in 0.023544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_34.png
+  artifactKey: Guid(21e2c0db4fba25041ae6da81909cd08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_34.png using Guid(21e2c0db4fba25041ae6da81909cd08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f712942d36bffd26a529ffd5e10bdd3') in 0.032985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_32.png
+  artifactKey: Guid(1feeb2e8e71cd724bb4f91812ec8ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_32.png using Guid(1feeb2e8e71cd724bb4f91812ec8ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41891c53c9fb43233bc423e4d1ec953') in 0.034339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ex5Ground.mat
+  artifactKey: Guid(46e0ecefe2ba442a5825f21e42530872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ex5Ground.mat using Guid(46e0ecefe2ba442a5825f21e42530872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422367e479f9089a33257e32558758c1') in 0.105972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png
+  artifactKey: Guid(455f4fe795672465c8a4e8db3c6b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png using Guid(455f4fe795672465c8a4e8db3c6b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e0ac0e0b8e54fb113fc4c84e7f0eef') in 0.020624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side4.png
+  artifactKey: Guid(66e962f61d04f7344a1e8fd2700d6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side4.png using Guid(66e962f61d04f7344a1e8fd2700d6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb392cf4007027157ed6677abc45f6c6') in 0.021669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_0.png
+  artifactKey: Guid(a52108c3e2636964aa76f680376c59a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_0.png using Guid(a52108c3e2636964aa76f680376c59a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24436047bf73c08f413dcdee9495aba') in 0.029289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png
+  artifactKey: Guid(37972c32346084c13bfddb8c3dbed143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png using Guid(37972c32346084c13bfddb8c3dbed143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce6f955f3235b5e32aa90ed29584aa') in 0.012806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/Ground.mat
+  artifactKey: Guid(3219de2d574674beb889c87b844502b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/Ground.mat using Guid(3219de2d574674beb889c87b844502b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa10c655a7db475e7519a28a53eaa52') in 0.035788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd
+  artifactKey: Guid(5d4852a517f1f496ebca302bd37b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd using Guid(5d4852a517f1f496ebca302bd37b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc5d234cfcbc0865524ae45a05d24da') in 0.027396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_3.png
+  artifactKey: Guid(581b44ceb14226a43adde9efb0a7022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_3.png using Guid(581b44ceb14226a43adde9efb0a7022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9fb8ea301644519d34a6ac78e8391') in 0.020699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png
+  artifactKey: Guid(deb2afb942c3b42fbba8823da7f05894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png using Guid(deb2afb942c3b42fbba8823da7f05894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a017dc02b478a4fc6cb7a62ee6509fdd') in 0.008725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png
+  artifactKey: Guid(5006aa4ede39e49198b851d98e267b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png using Guid(5006aa4ede39e49198b851d98e267b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d1c846a8bb08e124536a57550c7e2a') in 0.008736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png
+  artifactKey: Guid(0758c9e42111d4aec99694c875e9badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png using Guid(0758c9e42111d4aec99694c875e9badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a711b5fa3edde7267b2472b8a7ab880') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png
+  artifactKey: Guid(623f6adf01f324cb7bc6aefe7f87d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png using Guid(623f6adf01f324cb7bc6aefe7f87d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f48e6469a7d6e2808e2389bfa87565') in 0.008333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png
+  artifactKey: Guid(3772050cdbd2a472789aa76d6de5b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png using Guid(3772050cdbd2a472789aa76d6de5b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7f0f5114cf4c7de49ff6507f4c32fc') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png
+  artifactKey: Guid(11b8d44fcb3cf4c048a576df708e0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png using Guid(11b8d44fcb3cf4c048a576df708e0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ead3f48a52c3dc16c4a9a4b5bda725d') in 0.012637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/用到的Sprite/boss/Animation/idle/idle_3.png
+  artifactKey: Guid(4e7124cc402c7a544ae5a41c5a443c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/idle/idle_3.png using Guid(4e7124cc402c7a544ae5a41c5a443c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2595237019a0c8782b536c4f7f4816fd') in 0.022995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_stair.png
+  artifactKey: Guid(f743b0d621876e647b27609a05dca069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_stair.png using Guid(f743b0d621876e647b27609a05dca069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211b0f1bfd86bbdeae7dbc94d812461f') in 0.021263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png
+  artifactKey: Guid(7ef0e648811f14f65b69c2df3f27de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png using Guid(7ef0e648811f14f65b69c2df3f27de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6b7452c027f71f3c62701b845cad23') in 0.008166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png
+  artifactKey: Guid(db5b85df63e094a1c96f11019bccc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png using Guid(db5b85df63e094a1c96f11019bccc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa41fbbb88925d177aeeb1b3039e45e0') in 0.009482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd
+  artifactKey: Guid(b0749c40ee03a46eaa0401867a08b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd using Guid(b0749c40ee03a46eaa0401867a08b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656983f2dd4e29e8e09e55630cb29b72') in 0.013920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_6.png
+  artifactKey: Guid(43e3ec5c9bc2fae4d873ad7853141954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_6.png using Guid(43e3ec5c9bc2fae4d873ad7853141954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bfdf2f9e15c348f21e4beca923e7ef') in 0.018847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png
+  artifactKey: Guid(620f088d04c284b21939ce24996fdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png using Guid(620f088d04c284b21939ce24996fdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9726084acd8c68b3c964a4ff4da7cc3c') in 0.011698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_33.png
+  artifactKey: Guid(974e890dc7f930f4a9b71e3784745b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/bullet/KnifeBullet/Enemy/野猪/effect_08_33.png using Guid(974e890dc7f930f4a9b71e3784745b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c74a6436deac482a76ddcb27ab5c3c0') in 0.026962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_1.png
+  artifactKey: Guid(a20c125f315336841b243d56c7f9ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_1.png using Guid(a20c125f315336841b243d56c7f9ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3f45c46cbc797b2c9c29a0a2662324') in 0.022355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.393124 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png
+  artifactKey: Guid(b1817d211ea3547f088cddf76f3e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png using Guid(b1817d211ea3547f088cddf76f3e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0b5f4bfb47806c4d77c7e0e7c7696f') in 0.103264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_3.png
+  artifactKey: Guid(685fe0b57e81f2740adc119a09e6b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_3.png using Guid(685fe0b57e81f2740adc119a09e6b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6961d6fe931aa8ce6a27e00737fe2d1e') in 0.040343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_11.png
+  artifactKey: Guid(eed02c396bbb61d42b659d1ee90795b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_11.png using Guid(eed02c396bbb61d42b659d1ee90795b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020c67faafa0b375af620cdda6d48eb0') in 0.030500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_6.png
+  artifactKey: Guid(d4c25ada59e7da04887d26c80b1268d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_6.png using Guid(d4c25ada59e7da04887d26c80b1268d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6a6d18d78ac2211c5dce9e43c2ef32') in 0.032671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png
+  artifactKey: Guid(36094f49ffe31443eb5e8ea185115a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png using Guid(36094f49ffe31443eb5e8ea185115a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf56490cc95e99c0121027a39f4bcf5a') in 0.020535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_5.png
+  artifactKey: Guid(299cab587c7eb874287cc815bfd7af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_5.png using Guid(299cab587c7eb874287cc815bfd7af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adc141a327f2f702895f460f9abc7b1') in 0.031912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/用到的Sprite/boss/Animation/chop/heavyChop_7.png
+  artifactKey: Guid(506b7225cf2ba1548b70565c525d1289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/用到的Sprite/boss/Animation/chop/heavyChop_7.png using Guid(506b7225cf2ba1548b70565c525d1289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccb4c51d4752ee693531973d2bc07d9') in 0.031121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd
+  artifactKey: Guid(527965173b00f43f9a1b8fc9e8c2e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art-Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd using Guid(527965173b00f43f9a1b8fc9e8c2e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62afc9092f2275e5f458fe3babc12d1') in 0.018738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084257 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_9.png
+  artifactKey: Guid(98a7d139732b77d45a9cbeba670e5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_9.png using Guid(98a7d139732b77d45a9cbeba670e5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74880c998854ceb8f71b1b4de4c59f2') in 0.032906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side3.png
+  artifactKey: Guid(915723d68f5338b4ab1e8818f0e95de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side3.png using Guid(915723d68f5338b4ab1e8818f0e95de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96336a04994d418936ce50640597fa4f') in 0.026439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side2.png
+  artifactKey: Guid(a76147a16894fc34c8eb12d3d8566fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/v1.1 dungeon crawler 16x16 pixel pack/tiles/floor/floor_side2.png using Guid(a76147a16894fc34c8eb12d3d8566fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d8bd15e3384a6e7e8bbf13fc88f943') in 0.026927 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
